@@ -1,67 +1,85 @@
-# Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
-## Problem Title
-SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
-## Problem Description
-### Background
+## Smart India Hackathon Workshop
+## Name: SIVAHARIHARAN J
+## Reg No: 212224223004
+## Date: 16-11-2025
+# Problem Title
+# SIH 25006: Smart Crop Advisory System for Small and Marginal Farmers
 
-Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors, where disease outbreaks such as Avian Influenza and African Swine Fever can cause significant economic losses, threaten food security, and disrupt rural livelihoods. Despite its importance, many farmers—especially smallholders in resource-limited areas—struggle to access practical, actionable information on biosecurity protocols, risk assessment tools, and regulatory compliance requirements.
+Problem Description
+A majority of small and marginal farmers in India rely on traditional knowledge, local shopkeepers, or guesswork for crop selection, pest control, and fertilizer use. They lack access to personalized, real-time advisory services that account for soil type, weather conditions, and crop history. This often leads to poor yield, excessive input costs, and environmental degradation due to overuse of chemicals. Language barriers, low digital literacy, and absence of localized tools further limit their access to modern agri-tech resources.
 
-### Problem Description
+Impact / Why this problem needs to be solved
 
-There is an urgent need for a user-friendly, digital platform that empowers farmers to implement, monitor, and sustain robust biosecurity practices on their farms. This portal should offer end-to-end solutions for farm-level biosecurity management by integrating:
+Helping small farmers make informed decisions can significantly increase productivity, reduce costs, and improve livelihoods. It also contributes to sustainable farming practices, food security, and environmental conservation. A smart advisory solution can empower farmers with scientific insights in their native language and reduce dependency on unreliable third-party advice.
 
-• Customizable risk assessment tools based on local epidemiological conditions.
-• Interactive training modules and best practice guidelines tailored for pig and poultry production systems.
-• Compliance tracking features aligned with regulatory frameworks to help farmers work toward disease-free compartment recognition.
-• Real-time alerts and monitoring dashboards for disease outbreaks and biosecurity breaches.
-• Multilingual and mobile-first design to ensure accessibility in remote and rural areas.
+Expected Outcomes
 
-The platform should also enable data collection and analysis for policy support, foster collaborative networking among stakeholders (farmers, veterinarians, extension workers, etc.), and promote long-term resilience and sustainability in the livestock sector.
+• A multilingual, AI-based mobile app or chatbot that provides real-time, location-specific crop advisory. • Soil health recommendations and fertilizer guidance. • Weather-based alerts and predictive insights. • Pest/disease detection via image uploads. • Market price tracking. • Voice support for low-literate users. • Feedback and usage data collection for continuous improvement.
 
-### Expected Outcomes
+Relevant Stakeholders / Beneficiaries
 
-• Enhanced farmer awareness and education on biosecurity.
-• Improved risk management at the farm level as well as self-assessment.
-• Easy access to customized biosecurity protocols and guidelines.
-• Digital record-keeping and compliance tracking.
-• Timely alerts and disease notifications to farmers.
-• Healthier livestock and increased farm productivity.
-• Empowerment of small and marginal farmers with limited resources.
-• Support to authorities in data-driven surveillance and policy making.
-• Stronger collaboration across the livestock ecosystem.
-• Improved national preparedness for zoonotic and transboundary diseases.
+• Small and marginal farmers • Agricultural extension officers • Government agriculture departments • NGOs and cooperatives • Agri-tech startups
 
-## Problem Creater's Organization
-Ministry of Fisheries, Animal Husbandry & Dairying
+Supporting Data
 
-## Theme
-Department of Animal Husbandry & Dairying (DoAH&D)
+• 86% of Indian farmers are small or marginal (NABARD Report, 2022). • Studies show ICT-based advisories can increase crop yield by 20–30%.
 
-## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+Problem Creater's Organization
+Government of Punjab
 
-## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+Theme
+Agriculture, FoodTech & Rural Development
 
-## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+Proposed Solution
+The proposed solution is a Smart Crop Advisory System that helps farmers make better decisions using digital tools.
+It brings together crop advisory, soil and weather analysis, pest detection, and market insights into one platform.
 
-## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+Technical Approach
+The system uses a modular design with different services connected through an API Gateway.
 
-## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+Technologies
+
+Backend: Python (Django/Flask)
+Frontend: JavaScript (React)
+Databases: PostgreSQL, MongoDB, Redis/Cloud Storage
+AI/ML: For pest and disease detection from images
+APIs: Weather updates, market price feeds
+Methodology
+
+Farmers use the mobile app or USSD service to raise queries.
+Requests go through an API Gateway for routing and authentication.
+The request is sent to the right backend service (crop advisory, pest detection, weather/soil, market monitoring).
+Each service connects to its own database for storing and retrieving information.
+The processed result is sent
+Feasibility and Viability
+Feasibility
+The system is realistic since it uses already available technologies, cloud platforms, and APIs.
+It requires moderate infrastructure and can be scaled as needed.
+
+Challenges
+Poor internet connectivity in rural regions.
+Farmers not fully comfortable with smartphone apps.
+High accuracy needed for AI-based pest detection.
+Solutions
+USSD support for non-smartphone users.
+Multilingual simple UI for ease of use.
+Collaboration with agricultural research institutions for reliable datasets.
+Impact and Benefits
+Impact on Farmers
+Farmers gain quick access to reliable crop advice and market updates.
+
+Social Benefits
+Builds confidence among farmers by giving them direct access to information, reducing dependence on intermediaries.
+
+Economic Benefits
+Higher crop yields due to better planning.
+Better income by selling at favorable times and markets.
+Environmental Benefits
+Reduced overuse of pesticides and fertilizers.
+Prevents large-scale crop loss through early disease detection.
+flowchart
+Screenshot 2025-09-26 124435
+Research and References
+NABARD Annual Report 2022
+Indian Agricultural Research Institute (ICAR)
+FAO – ICT in Agriculture
